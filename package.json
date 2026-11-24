@@ -1,0 +1,18 @@
+{
+  "name": "js-alaan-hardware",
+  "version": "2.9.11",
+  "private": true,
+  "type": "module",
+  "description": "JS ALAAN HARDWARE — private store system (POS, inventory, utang, attendance, analytics).",
+  "scripts": {
+    "start": "node server.mjs",
+    "online": "node server.mjs --online",
+    "demo": "node server.mjs --demo",
+    "backup": "node backup.mjs",
+    "fresh-start": "node fresh-start.mjs",
+    "go-live": "node fresh-start.mjs --admin-only"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
